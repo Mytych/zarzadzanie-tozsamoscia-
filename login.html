@@ -13,7 +13,10 @@
     <form id="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <label class="showPassword"><input type="checkbox" id="showPassword">Show password</label>
+      <p><a href="#" class="requestPassword">Forgot password?</a></p>
       <input type="submit" value="Login" id="login-form-submit" onclick="addEventListener"> <!-- dodanie opcji onclick-->
+      <label class="check" for="checkbox"><input type="checkbox">Zapamiętaj mnie!</label>
     </form>
     <div id="login-error-msg-holder">
         <div id="login-error-msg">Login or Password not valid</div> <!--komunikat wyswietlany na dole strony--> 

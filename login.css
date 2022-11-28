@@ -72,10 +72,28 @@ html {
     width: 100%;
     padding: 7px;
     border: none;
+    margin-bottom: 10px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     background-color: #41123e;
     cursor: pointer;
     outline: none;
+  }
+
+  .requestPassword {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .check {
+    display: inline;
+    float: none;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+.showPassword {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
   }
